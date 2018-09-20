@@ -23,3 +23,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.favorite-movie-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
