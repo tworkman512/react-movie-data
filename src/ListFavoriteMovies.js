@@ -11,7 +11,9 @@ render() {
       <div className='favorite-movie-wrapper'>
       	<ul className='movie-list'>
       	{profiles.map((profile) => (
-    		<li key={profile.id}>{profile.userID}</li>
+    		<li key={profile.id}>
+				{users[profile.userID].name}'s favorite movie is {movies[profile.favoriteMovieID].name}.
+			</li>
     	))}
       	</ul>
       </div>
